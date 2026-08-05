@@ -145,3 +145,4 @@ jobs:
           name: elf
           path: ${{github.workspace}}/build/GP2040-CE_*_${{ matrix.GP2040_BOARDCONFIG }}.elf
           if-no-files-found: error
+
